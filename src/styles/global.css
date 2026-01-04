@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+:root {
+  --bg-dark: #070809;
+  --sidebar-bg: #101010;
+  --card-bg: #1A1D1F;
+  --primary-blue: #3E7BFA;
+  --text-muted: #9BA3AF;
+  --border-color: #23262F;
+  --search-bg: #2B2B2B;        
+  --placeholder-color: #C7C7C7;
+  --text-muted: #9BA3AF;
+  
+  --active-gradient: linear-gradient(90deg, rgba(62, 123, 250, 0.2) 0%, rgba(62, 123, 250, 0) 100%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--bg-dark);
+  color: var(--text-main);
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.bg-glow-effect {
+  position: absolute;
+  left: 3%;
+  top: -328px;
+  width: 30%;
+  height: 640px;
+  filter: blur(100px);
+  pointer-events: none;
+  z-index: 0;
+}
