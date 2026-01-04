@@ -2,8 +2,7 @@ import React, { useState } from 'react';
 
 const SidebarItem = ({ label, active, iconName, hasDropdown }) => {
   const [isHovered, setIsHovered] = useState(false);
-  const iconPath = `/src/assets/icons/${iconName}.svg`;
-  
+const iconPath = `/icons/${iconName}.svg`;  
   const isShown = active || isHovered;
 
   return (
