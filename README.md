@@ -1,16 +1,37 @@
-# React + Vite
+StrykeX Dashboard
+A modern, responsive financial and trading dashboard built with React and Vite. This project features a modular UI, sidebar navigation with dynamic SVG icons, and is optimized for production deployment on Netlify.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Live Demo
+https://skrykex.netlify.app/
 
-Currently, two official plugins are available:
+Tech Stack
+Framework: React
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Build Tool: Vite
 
-## React Compiler
+Deployment: Netlify
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Icons: SVG
 
-## Expanding the ESLint configuration
+Features
+Fast Build: Optimized using Vite for instant hot module replacement.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Static Assets: Reliable icon rendering via the public directory for production stability.
+
+CI/CD: Automatic deployments via GitHub and Netlify integration.
+
+Installation
+Clone the repo: git clone https://github.com/your-username/your-repo-name.git
+
+Install dependencies: npm install
+
+Start Development: npm run dev
+
+Production Build: npm run build
+
+Structure
+/public/icons: Static SVG assets.
+
+/src/components: React UI components.
+
+/src/assets: Styles and global assets.
