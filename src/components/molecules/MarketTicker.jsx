@@ -1,6 +1,6 @@
 import React from 'react';
 import bullIcon from '../../assets/icons/bull.svg';
-import patternImg from '../../assets/pattern.png'; 
+import patternImg from '../../assets/Pattern.png'; 
 
 const VerticalDivider = () => (
   <div style={{
